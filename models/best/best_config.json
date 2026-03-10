@@ -1,0 +1,49 @@
+{
+  "model": "XGBoost",
+  "params": {
+    "n_estimators": 500,
+    "max_depth": 5,
+    "learning_rate": 0.01,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 1,
+    "reg_lambda": 1,
+    "min_child_weight": 3,
+    "gamma": 1,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "features": [
+    "Pclass",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Has_Cabin",
+    "Title_Encoded",
+    "FamilySize",
+    "IsAlone",
+    "Age_Group_Encoded",
+    "Fare_Group_Encoded",
+    "Sex_Encoded",
+    "Embarked_C",
+    "Embarked_Q",
+    "Embarked_S",
+    "Pclass_1",
+    "Pclass_2",
+    "Pclass_3"
+  ],
+  "feature_count": 18,
+  "timestamp": "2026-03-09 22:59:13",
+  "train_accuracy": 0.8778089887640449,
+  "val_accuracy": 0.8156424581005587,
+  "cv_mean": 0.8226790534178645,
+  "cv_std": 0.010270606085229143,
+  "cv_scores": [
+    0.8156424581005587,
+    0.8089887640449438,
+    0.8370786516853933,
+    0.8202247191011236,
+    0.8314606741573034
+  ]
+}

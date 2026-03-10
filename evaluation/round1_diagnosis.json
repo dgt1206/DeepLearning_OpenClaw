@@ -1,0 +1,180 @@
+{
+  "round": 1,
+  "model_features": 28,
+  "data_features": 28,
+  "feature_importance": [
+    {
+      "feature": "Sex_Pclass",
+      "importance": 0.12479213238800103
+    },
+    {
+      "feature": "Title_Encoded",
+      "importance": 0.11815411196826557
+    },
+    {
+      "feature": "Age_Fare",
+      "importance": 0.09129760954995732
+    },
+    {
+      "feature": "Sex_Encoded",
+      "importance": 0.08262649047529116
+    },
+    {
+      "feature": "Fare",
+      "importance": 0.07843329918139846
+    },
+    {
+      "feature": "Age",
+      "importance": 0.07231192865889347
+    },
+    {
+      "feature": "Woman_or_Child",
+      "importance": 0.05736444682089586
+    },
+    {
+      "feature": "Title_Pclass",
+      "importance": 0.04887910796777302
+    },
+    {
+      "feature": "FamilySize_Pclass",
+      "importance": 0.03427072528005701
+    },
+    {
+      "feature": "Pclass",
+      "importance": 0.033554692247797405
+    },
+    {
+      "feature": "Has_Cabin",
+      "importance": 0.029848655464281303
+    },
+    {
+      "feature": "FamilySize",
+      "importance": 0.025725883736256453
+    },
+    {
+      "feature": "Pclass_3",
+      "importance": 0.0253229976649683
+    },
+    {
+      "feature": "Age_Category",
+      "importance": 0.022104293924820672
+    },
+    {
+      "feature": "Fare_Group_Encoded",
+      "importance": 0.02158830861116145
+    },
+    {
+      "feature": "Fare_Quartile",
+      "importance": 0.02059041943632182
+    },
+    {
+      "feature": "FamilyType",
+      "importance": 0.017615091636412412
+    },
+    {
+      "feature": "SibSp",
+      "importance": 0.01714622401944711
+    },
+    {
+      "feature": "Embarked_S",
+      "importance": 0.012013063353137335
+    },
+    {
+      "feature": "Pclass_1",
+      "importance": 0.01110774918120066
+    },
+    {
+      "feature": "Age_Group_Encoded",
+      "importance": 0.009716333724720312
+    },
+    {
+      "feature": "Parch",
+      "importance": 0.00784382508203617
+    },
+    {
+      "feature": "High_Fare",
+      "importance": 0.007136138687445682
+    },
+    {
+      "feature": "Title_Pclass_Match",
+      "importance": 0.007097450827191545
+    },
+    {
+      "feature": "Embarked_C",
+      "importance": 0.007043728504303866
+    },
+    {
+      "feature": "Pclass_2",
+      "importance": 0.00675042287518431
+    },
+    {
+      "feature": "IsAlone",
+      "importance": 0.004932281276397274
+    },
+    {
+      "feature": "Embarked_Q",
+      "importance": 0.0047325874563830484
+    }
+  ],
+  "low_importance_features": [
+    "Age_Group_Encoded",
+    "Parch",
+    "High_Fare",
+    "Title_Pclass_Match",
+    "Embarked_C",
+    "Pclass_2",
+    "IsAlone",
+    "Embarked_Q"
+  ],
+  "low_importance_count": 8,
+  "overfit_gap": 0.07115372544096421,
+  "cv_mean": 0.8361496453455528,
+  "cv_std": 0.025399289649942383,
+  "cv_scores": [
+    0.8268156424581006,
+    0.8146067415730337,
+    0.8764044943820225,
+    0.8089887640449438,
+    0.8539325842696629
+  ],
+  "train_mean": 0.9084269662921349,
+  "val_mean": 0.8372732408511707,
+  "learning_curve": {
+    "train_sizes": [
+      71,
+      142,
+      213,
+      284,
+      356,
+      427,
+      498,
+      569,
+      640,
+      712
+    ],
+    "train_mean": [
+      0.9211267605633802,
+      0.9014084507042254,
+      0.8995305164319248,
+      0.9084507042253522,
+      0.8988764044943821,
+      0.8978922716627634,
+      0.9004016064257028,
+      0.9036906854130052,
+      0.9043750000000002,
+      0.9084269662921349
+    ],
+    "val_mean": [
+      0.7610570585650619,
+      0.7912811499591992,
+      0.8305316678174629,
+      0.824913690289373,
+      0.8316489862532169,
+      0.8372544096415794,
+      0.8316866486723997,
+      0.839507877722679,
+      0.839507877722679,
+      0.8372732408511707
+    ]
+  }
+}
