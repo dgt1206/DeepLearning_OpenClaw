@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda create:*)",
+      "Bash(conda run:*)",
+      "Bash(cd /d G:Github_DGTDeepLearning_OpenClaw)",
+      "Bash(dir /s /b)"
+    ]
+  }
+}
