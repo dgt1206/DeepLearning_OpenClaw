@@ -4,7 +4,12 @@
       "Bash(conda create:*)",
       "Bash(conda run:*)",
       "Bash(cd /d G:Github_DGTDeepLearning_OpenClaw)",
-      "Bash(dir /s /b)"
+      "Bash(dir /s /b)",
+      "Bash(du -sh */)",
+      "Bash(wc -l training/*.py preprocessing/*.py evaluation/*.py)",
+      "Bash(/tmp/project_summary.txt:*)",
+      "Read(//tmp/**)",
+      "Bash(find . -name \"*.py\" -type f -exec wc -l {} +)"
     ]
   }
 }
